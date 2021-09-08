@@ -25,9 +25,9 @@ const App = () => {
           )}
         </>
       ) : (
-        <div className="bg-blue-dark border-b-12 px-52 border-green flex">
-          <div className=" bg-gray-dark m-4 p-2 rounded-sm">
-            <h1 className="text-xl text-blue-baby font-roboto-mono">
+        <div className="bg-blue-dark border-b-12 xl:px-52 px-18 border-green flex">
+          <div className=" bg-gray-dark sm:m-2 sm:p-2 m-4 p-2 rounded-sm">
+            <h1 className="text-3xl text-blue-baby font-roboto-mono">
               [Adal Zayas]
             </h1>
           </div>

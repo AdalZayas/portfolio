@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Helmet } from 'react-helmet';
 import './index.css';
 import 'tailwindcss/tailwind.css'
 import App from './components/App';
@@ -7,6 +8,17 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Helmet>
+      <meta
+        name="description"
+        content="Hello i'm Adal Zayas and this is my portfolio 😀"
+      />
+      <title> Portfolio | AdalZayas </title>
+      <meta property="og:title" content="Portfolio of Adal Zayas" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="aszyh.tk" />
+      <meta property="og:image" content="%PUBLIC_URL%/opg.png" />
+    </Helmet>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
